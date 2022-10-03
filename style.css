@@ -5,7 +5,7 @@ body{
     background: radial-gradient(#C0D6DF, #DBE9EE);
 }
 p{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 600;
     word-spacing: 1rem;
     color: #283618;
@@ -35,7 +35,7 @@ blockquote{
 .farmer{
     border-left: 3px solid #606c38;
 }
-header > time{
+header > h1{
     background-color: yellow;
 }
 .good{
@@ -52,4 +52,21 @@ header > time{
 table{
     border-collapse: collapse;
     border: 2px #283618;
+}
+tbody tr:nth-child(odd) {
+    background-color: grey;
+}
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+img{
+    height: 250px;
+    float: right;
+    margin: 5px;
+}
+h2,h3,h4{
+    font-size: 20px;
+}
+footer{
+    text-align: center;
 }
