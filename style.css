@@ -1,0 +1,55 @@
+body{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background: radial-gradient(#C0D6DF, #DBE9EE);
+}
+p{
+    font-family: 'Playfair Display', serif;
+    font-size: 600;
+    word-spacing: 1rem;
+    color: #283618;
+}
+a:link{
+    text-decoration: none;
+    color:#bc6c25;
+}
+a:visited{
+    text-decoration:none;
+    color: brown;
+}
+a:hover{
+    text-decoration: underline;
+    color: #606c38;
+}
+blockquote{
+    font-size: 160%;
+    font-style: italic;
+    border-left: 3px solid grey;
+    background-color:#D8D8D8;
+    padding: 80px 30px; 
+}
+.villager{
+    border-left: 3px solid #bc6c25;
+}
+.farmer{
+    border-left: 3px solid #606c38;
+}
+header > time{
+    background-color: yellow;
+}
+.good{
+    font-variant: small-caps;
+    color: green;
+}
+.bad{
+    font-variant: small-caps;
+    color: red;
+}
+#paragraphe1{
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+    border: 2px #283618;
+}
